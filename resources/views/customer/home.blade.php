@@ -45,11 +45,11 @@
                 <div class="container">
                     <div class="main-logo">
                         <a href="index.html" class="logo">
-                            <img src="assets/customer/images/veggy.png" width="105" alt="">
+                            <img src="assets/customer/images/veggy.png" width="85" alt="">
                         </a>
                         <div class="mobile-nav__buttons">
-                            <a href="#" class="search-toggler"><i class="custom-icon-magnifying-glass"></i></a>
-                            <a href="#" class="mini-cart__toggler"><i class="custom-icon-shopping-cart"></i></a>
+                            <a href="" class="search-toggler"><i class="custom-icon-magnifying-glass"></i></a>
+                            <a href="" class="mini-cart__toggler"><i class="custom-icon-shopping-cart"></i></a>
                         </div><!-- /.mobile__buttons -->
 
                         <span class="fa fa-bars mobile-nav__toggler"></span>
@@ -222,10 +222,10 @@
             </div><!-- /.container -->
         </section><!-- /.feature-box -->
 
-        <section class="new-products">
-            <img src="assets/customer/images/shapes/new-product-shape-1.png" alt="" class="new-products__shape-1">
+        <section id="products" class="products">
+            <img src="assets/customer/images/shapes/new-product-shape-1.png" alt="" class="products__shape-1">
             <div class="container">
-                <div class="new-products__top">
+                <div class="products__top">
                     <div class="block-title ">
                         <div class="block-title__decor"></div><!-- /.block-title__decor -->
                         <p>Fresh from the Farm</p>
@@ -239,95 +239,75 @@
                         <li class="filter" data-filter=".fruits">Fruits
                         </li>
                     </ul>
-                </div><!-- /.new-products__top -->
+                </div><!-- /.products__top -->
                 <div class="row filter-layout">
                     <div class="col-lg-4 col-md-6 filter-item fruits">
                         <div class="product-card__two">
                             <div class="product-card__two-image">
-                                <span class="product-card__two-sale">InStock</span>
+                                <span class="product-card__two-qty">Out of Stock</span>
                                 <img src="assets/customer/images/products/product-2-1.jpg" alt="">
                                 <div class="product-card__two-image-content">
                                     <a href=""><i class="custom-icon-visibility"></i></a>
-                                    <a href="cart.html"><i class="custom-icon-shopping-cart"></i></a>
+                                    <a href=""><i class="custom-icon-shopping-cart"></i></a>
                                 </div><!-- /.product-card__two-image-content -->
                             </div><!-- /.product-card__two-image -->
                             <div class="product-card__two-content">
                                 <h3><a href="product-details.html">Banana</a></h3>
-                                <p>$1.00</p>
-                            </div><!-- /.product-card__two-content -->
-                        </div><!-- /.product-card__two -->
-                    </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-4 col-md-6 filter-item fruits">
-                        <div class="product-card__two">
-                            <div class="product-card__two-image">
-
-                                <img src="assets/customer/images/products/product-2-5.jpg" alt="">
-                                <div class="product-card__two-image-content">
-                                    <a href="#"><i class="custom-icon-visibility"></i></a>
-                                    <a href="cart.html"><i class="custom-icon-shopping-cart"></i></a>
-                                </div><!-- /.product-card__two-image-content -->
-                            </div><!-- /.product-card__two-image -->
-                            <div class="product-card__two-content">
-                                <h3><a href="product-details.html">Bread</a></h3>
-                                <p>$2.00</p>
+                                <p>Kshs 100.00</p>
                             </div><!-- /.product-card__two-content -->
                         </div><!-- /.product-card__two -->
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4 col-md-6 filter-item veg">
                         <div class="product-card__two">
                             <div class="product-card__two-image">
-                                <span class="product-card__two-sale">sale</span>
+
+                                <img src="assets/customer/images/products/product-2-5.jpg" alt="">
+                                <div class="product-card__two-image-content">
+                                    <a href=""><i class="custom-icon-visibility"></i></a>
+                                    <a href=""><i class="custom-icon-shopping-cart"></i></a>
+                                </div><!-- /.product-card__two-image-content -->
+                            </div><!-- /.product-card__two-image -->
+                            <div class="product-card__two-content">
+                                <h3><a href="product-details.html">Lettuce</a></h3>
+                                <p>Kshs 200.00</p>
+                            </div><!-- /.product-card__two-content -->
+                        </div><!-- /.product-card__two -->
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4 col-md-6 filter-item fruits">
+                        <div class="product-card__two">
+                            <div class="product-card__two-image">
                                 <img src="assets/customer/images/products/product-2-6.jpg" alt="">
                                 <div class="product-card__two-image-content">
-                                    <a href="#"><i class="custom-icon-visibility"></i></a>
-                                    <a href="cart.html"><i class="custom-icon-shopping-cart"></i></a>
+                                    <a href=""><i class="custom-icon-visibility"></i></a>
+                                    <a href=""><i class="custom-icon-shopping-cart"></i></a>
                                 </div><!-- /.product-card__two-image-content -->
                             </div><!-- /.product-card__two-image -->
                             <div class="product-card__two-content">
                                 <h3><a href="product-details.html">Apples</a></h3>
-                                <p>$2.00</p>
+                                <p>Kshs 100.00</p>
                             </div><!-- /.product-card__two-content -->
                         </div><!-- /.product-card__two -->
                     </div><!-- /.col-lg-4 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
-        </section><!-- /.new-products -->
+        </section><!-- /.products -->
 
         <footer class="site-footer background-black-2">
             <img src="assets/customer/images/shapes/footer-bg-1-1.png" alt="" class="site-footer__shape-1">
             <img src="assets/customer/images/shapes/footer-bg-1-2.png" alt="" class="site-footer__shape-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="col-md-4">
                         <div class="footer-widget footer-widget__about-widget">
                             <a href="/home" class="footer-widget__logo">
-                                <img src="assets/customer/images/veggy.png" alt="Veggy Appetites Logo">
+                                <img src="assets/customer/images/veggy.png" width="50" alt="Veggy Appetites Logo">
                             </a>
                             <p class="thm-text-dark">Veggy Appetites is a supplier of naturally grown 
 								vegetables such as lettuces, rucola etc.
 							</p>
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-sm-12 col-md-6 -->
-                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-2">
-                        <div class="footer-widget footer-widget__contact-widget">
-                            <h3 class="footer-widget__title">Contact</h3><!-- /.footer-widget__title -->
-                            <ul class="list-unstyled footer-widget__contact">
-                                <li>
-                                    <i class="fa fa-phone-square"></i>
-                                    <a href="tel:666-888-0000">+254 703 461 808</a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-envelope"></i>
-                                    <a href="mailto:info@company.com">info@veggyappetites.com</a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-map-marker-alt"></i>
-                                    <a href="/contact" >Nairobi, Kenya</a>
-                                </li>
-                            </ul><!-- /.list-unstyled footer-widget__contact -->
-                        </div><!-- /.footer-widget -->
-                    </div><!-- /.col-sm-12 col-md-6 col-lg-2 -->
-                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-2">
+                    <div class="col-md-4">
                         <div class="footer-widget footer-widget__links-widget">
                             <h3 class="footer-widget__title">Links</h3><!-- /.footer-widget__title -->
                             <ul class="list-unstyled footer-widget__links">
@@ -342,6 +322,25 @@
                                 </li>
                                 <li>
                                     <a href="/contact">Contact</a>
+                                </li>
+                            </ul><!-- /.list-unstyled footer-widget__contact -->
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-sm-12 col-md-6 col-lg-2 -->
+                    <div class="col-md-4">
+                        <div class="footer-widget footer-widget__contact-widget">
+                            <h3 class="footer-widget__title">Contact</h3><!-- /.footer-widget__title -->
+                            <ul class="list-unstyled footer-widget__contact">
+                                <li>
+                                    <i class="fa fa-phone-square"></i>
+                                    <a href="tel:666-888-0000">+254 703 461 808</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope"></i>
+                                    <a href="mailto:info@veggyappetites.com">info@veggyappetites.com</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-map-marker-alt"></i>
+                                    <a href="/contact" >Nairobi, Kenya</a>
                                 </li>
                             </ul><!-- /.list-unstyled footer-widget__contact -->
                         </div><!-- /.footer-widget -->
@@ -372,7 +371,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="custom-icon-close"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/customer/images/logo-light.png" width="155" alt="" /></a>
+                <a href="/" aria-label="logo image"><img src="assets/customer/images/veggy.png" width="85" alt="Veggy Appetites Logo" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -381,25 +380,16 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="custom-icon-email"></i>
-                    <a href="mailto:needhelp@organik.com">needhelp@organik.com</a>
+                    <a href="mailto:info@veggyappetites.com">info@veggyappetites.com</a>
                 </li>
                 <li>
                     <i class="custom-icon-calling"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:+254 703 461 808">+254 703 461 808</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
-                <div class="mobile-nav__language">
-                    <img src="assets/customer/images/resources/flag-1-1.jpg" alt="">
-                    <label class="sr-only" for="language-select">select language</label>
-                    <!-- /#language-select.sr-only -->
-                    <select class="selectpicker" id="language-select">
-                        <option value="english">English</option>
-                        <option value="arabic">Arabic</option>
-                    </select>
-                </div><!-- /.mobile-nav__language -->
                 <div class="main-menu__login">
-                    <a href="#"><i class="custom-icon-user"></i>Login / Register</a>
+                    <a href=""><i class="custom-icon-user"></i>Login / Register</a>
                 </div><!-- /.main-menu__login -->
             </div><!-- /.mobile-nav__top -->
 
@@ -449,7 +439,7 @@
                 <img src="assets/customer/images/products/cart-1-3.jpg" alt="">
                 <div class="mini-cart__item-content">
                     <div class="mini-cart__item-top">
-                        <h3><a href="product-details.html">Bread</a></h3>
+                        <h3><a href="product-details.html">Lettuce</a></h3>
                         <p>$9.99</p>
                     </div><!-- /.mini-cart__item-top -->
                     <div class="quantity-box">
@@ -462,22 +452,6 @@
             <a href="checkout.html" class="thm-btn mini-cart__checkout">Proceed To Checkout</a>
         </div><!-- /.mini-cart__content -->
     </div><!-- /.cart-toggler -->
-
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
-        <div class="search-popup__content">
-            <form action="#">
-                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-                <input type="text" id="search" placeholder="Search Here..." />
-                <button type="submit" aria-label="search submit" class="thm-btn">
-                    <i class="custom-icon-magnifying-glass"></i>
-                </button>
-            </form>
-        </div>
-        <!-- /.search-popup__content -->
-    </div>
-    <!-- /.search-popup -->
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
