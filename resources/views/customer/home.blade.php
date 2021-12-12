@@ -17,18 +17,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Abril+Fatface&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
 
 
-    <link rel="stylesheet" href="assets/customer/vendors/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/customer/vendors/bootstrap-select/bootstrap-select.min.css" />
-    <link rel="stylesheet" href="assets/customer/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/customer/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/customer/vendors/jarallax/jarallax.css" />
-    <link rel="stylesheet" href="assets/customer/vendors/custom-icon/custom-icons.css" />
-    <link rel="stylesheet" href="assets/customer/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
-    <link rel="stylesheet" href="assets/customer/vendors/nouislider/nouislider.min.css" />
-    <link rel="stylesheet" href="assets/customer/vendors/nouislider/nouislider.pips.css" />
-    <link rel="stylesheet" href="assets/customer/vendors/odometer/odometer.min.css" />
-    <link rel="stylesheet" href="assets/customer/vendors/swiper/swiper.min.css" />
-    <link rel="stylesheet" href="assets/customer/vendors/tiny-slider/tiny-slider.min.css" />
+    <link rel="stylesheet" href="assets/customer/plugins/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/customer/plugins/bootstrap-select/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/customer/plugins/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/customer/plugins/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/customer/plugins/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="assets/customer/plugins/custom-icon/custom-icons.css" />
+    <link rel="stylesheet" href="assets/customer/plugins/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/customer/plugins/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="assets/customer/plugins/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="assets/customer/plugins/odometer/odometer.min.css" />
+    <link rel="stylesheet" href="assets/customer/plugins/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="assets/customer/plugins/tiny-slider/tiny-slider.min.css" />
 
     <!-- template styles -->
     <link rel="stylesheet" href="assets/customer/css/style.css" />
@@ -247,12 +247,12 @@
                                 <span class="product-card__two-qty">Out of Stock</span>
                                 <img src="assets/customer/images/products/product-2-1.jpg" alt="">
                                 <div class="product-card__two-image-content">
-                                    <a href=""><i class="custom-icon-visibility"></i></a>
-                                    <a href=""><i class="custom-icon-shopping-cart"></i></a>
+                                    <a role="button"><i class="custom-icon-visibility"></i></a>
+                                    <a role="button" class="add_cart"><i class="custom-icon-shopping-cart"></i></a>
                                 </div><!-- /.product-card__two-image-content -->
                             </div><!-- /.product-card__two-image -->
                             <div class="product-card__two-content">
-                                <h3><a href="product-details.html">Banana</a></h3>
+                                <h3><a href="">Banana</a></h3>
                                 <p>Kshs 100.00</p>
                             </div><!-- /.product-card__two-content -->
                         </div><!-- /.product-card__two -->
@@ -263,12 +263,12 @@
 
                                 <img src="assets/customer/images/products/product-2-5.jpg" alt="">
                                 <div class="product-card__two-image-content">
-                                    <a href=""><i class="custom-icon-visibility"></i></a>
-                                    <a href=""><i class="custom-icon-shopping-cart"></i></a>
+                                    <a role="button"><i class="custom-icon-visibility"></i></a>
+                                    <a role="button" class="add_cart"><i class="custom-icon-shopping-cart"></i></a>
                                 </div><!-- /.product-card__two-image-content -->
                             </div><!-- /.product-card__two-image -->
                             <div class="product-card__two-content">
-                                <h3><a href="product-details.html">Lettuce</a></h3>
+                                <h3><a href="">Lettuce</a></h3>
                                 <p>Kshs 200.00</p>
                             </div><!-- /.product-card__two-content -->
                         </div><!-- /.product-card__two -->
@@ -278,12 +278,12 @@
                             <div class="product-card__two-image">
                                 <img src="assets/customer/images/products/product-2-6.jpg" alt="">
                                 <div class="product-card__two-image-content">
-                                    <a href=""><i class="custom-icon-visibility"></i></a>
-                                    <a href=""><i class="custom-icon-shopping-cart"></i></a>
+                                    <a role="button"><i class="custom-icon-visibility"></i></a>
+                                    <a role="button" class="add_cart"><i class="custom-icon-shopping-cart"></i></a>
                                 </div><!-- /.product-card__two-image-content -->
                             </div><!-- /.product-card__two-image -->
                             <div class="product-card__two-content">
-                                <h3><a href="product-details.html">Apples</a></h3>
+                                <h3><a href="">Apples</a></h3>
                                 <p>Kshs 100.00</p>
                             </div><!-- /.product-card__two-content -->
                         </div><!-- /.product-card__two -->
@@ -384,7 +384,7 @@
                 </li>
                 <li>
                     <i class="custom-icon-calling"></i>
-                    <a href="tel:+254 703 461 808">+254 703 461 808</a>
+                    <a href="tel:+254703461808">+254 703 461 808</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
@@ -416,7 +416,7 @@
                     </div><!-- /.mini-cart__item-top -->
                     <div class="quantity-box">
                         <button type="button" class="sub">-</button>
-                        <input type="number" id="2" value="1" />
+                        <input type="number" id="0" value="1" />
                         <button type="button" class="add">+</button>
                     </div>
                 </div><!-- /.mini-cart__item-content -->
@@ -430,7 +430,7 @@
                     </div><!-- /.mini-cart__item-top -->
                     <div class="quantity-box">
                         <button type="button" class="sub">-</button>
-                        <input type="number" id="2" value="1" />
+                        <input type="number" id="1" value="1" />
                         <button type="button" class="add">+</button>
                     </div>
                 </div><!-- /.mini-cart__item-content -->
@@ -456,25 +456,26 @@
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
 
-    <script src="assets/customer/vendors/jquery/jquery-3.5.1.min.js"></script>
-    <script src="assets/customer/vendors/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="assets/customer/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/customer/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/customer/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/customer/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/customer/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/customer/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/customer/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/customer/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/customer/vendors/odometer/odometer.min.js"></script>
-    <script src="assets/customer/vendors/swiper/swiper.min.js"></script>
-    <script src="assets/customer/vendors/tiny-slider/tiny-slider.min.js"></script>
-    <script src="assets/customer/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/customer/vendors/wow/wow.js"></script>
-    <script src="assets/customer/vendors/isotope/isotope.js"></script>
-    <script src="assets/customer/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/customer/plugins/jquery/jquery-3.5.1.min.js"></script>
+    <script src="assets/customer/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/customer/plugins/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="assets/customer/plugins/jarallax/jarallax.min.js"></script>
+    <script src="assets/customer/plugins/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/customer/plugins/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/customer/plugins/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/customer/plugins/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/customer/plugins/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/customer/plugins/nouislider/nouislider.min.js"></script>
+    <script src="assets/customer/plugins/odometer/odometer.min.js"></script>
+    <script src="assets/customer/plugins/swiper/swiper.min.js"></script>
+    <script src="assets/customer/plugins/tiny-slider/tiny-slider.min.js"></script>
+    <script src="assets/customer/plugins/wnumb/wNumb.min.js"></script>
+    <script src="assets/customer/plugins/wow/wow.js"></script>
+    <script src="assets/customer/plugins/isotope/isotope.js"></script>
+    <script src="assets/customer/plugins/countdown/countdown.min.js"></script>
     <!-- template js -->
-    <script src="assets/customer/js/organik.js"></script>
+    <script src="assets/customer/js/main.js"></script>
+    <script src="assets/customer/js/cart.js"></script>
 </body>
 
 </html>

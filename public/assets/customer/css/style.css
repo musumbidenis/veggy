@@ -5571,7 +5571,7 @@ h6 {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: red;
+  background-color: var(--thm-secondary);
   font-size: 14px;
   font-weight: 700;
   color: #fff;
